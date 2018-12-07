@@ -1,0 +1,1200 @@
+﻿[        ] 
+[        ]              WebGrab+Plus/w MDB & REX Postprocess -- version  V2.1              
+[        ] 
+[        ]                                 Jan van Straaten                                
+[        ]                              Francis De Paemeleere                              
+[        ] 
+[        ]             thanks to Paul Weterings and all the contributing users             
+[        ] --------------------------------------------------------------------------------
+[        ] 
+[        ] Job started at 06/12/2018 23:14:19
+[  Debug ] 
+[  Debug ] Running  on: Microsoft Windows NT 6.2.9200.0
+[  Debug ] Environment: 4.0.30319.42000
+[  Debug ] 
+[  Debug ] Loading timezone data
+[  Debug ] Embedded timezones source: WGconsole.WG.Common.timezonesdata.txt
+[  Debug ] Reading config file: C:\Users\NOBRE\AppData\Local\WebGrab+Plus\WebGrab++.config.xml
+[  Info  ] found: C:\Users\NOBRE\AppData\Local\WebGrab+Plus\siteini.pack\Brazil\clarotv.com.br.ini -- Revision 01
+[  Info  ] input file C:\Users\NOBRE\AppData\Local\WebGrab+Plus\guide.xml not found   ... created a new one ... 
+[  Info  ] 
+[  Info  ] 
+[  Info  ]       i=index  .=same  c=change  g=gab  r=replace  n=new
+[  Info  ] 
+[  Info  ] 
+[  Info  ] Group (0) :
+[  Info  ] update requested for - 147 - out of - 147 - channels for 7 day(s)
+[  Debug ] 
+[  Info  ] (   1/147 ) CLAROTV.COM.BR -- chan. (xmltv_id=RECORD  HD) -- mode Force
+[Warning ] no robots data found
+[Warning ] skipped robots check
+[  Debug ] debugging information siteini; urlindex builder
+[  Debug ] siteini entry :
+[  Debug ] urldate format type: datestring, value: |dd-MM-yyyy
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ] url_index created:
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/RECORD%20%20HD/all/numero_asc/07-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/RECORD%20%20HD/all/numero_asc/08-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/RECORD%20%20HD/all/numero_asc/09-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/RECORD%20%20HD/all/numero_asc/10-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/RECORD%20%20HD/all/numero_asc/11-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/RECORD%20%20HD/all/numero_asc/12-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/RECORD%20%20HD/all/numero_asc/13-12-2018/1
+[Error   ] no shows in indexpage!
+[  Info  ] 
+[  Info  ]    Summary for update of       RECORD  HD
+[  Info  ]      no changes, no update necessary !
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        0
+
+[  Debug ] 
+[  Info  ] (   2/147 ) CLAROTV.COM.BR -- chan. (xmltv_id=RECORD  HD [ALTER]) -- mode Force
+[  Debug ] debugging information siteini; urlindex builder
+[  Debug ] siteini entry :
+[  Debug ] urldate format type: datestring, value: |dd-MM-yyyy
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ] url_index created:
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/RECORD%20%20HD%20[ALTER]/all/numero_asc/07-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/RECORD%20%20HD%20[ALTER]/all/numero_asc/08-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/RECORD%20%20HD%20[ALTER]/all/numero_asc/09-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/RECORD%20%20HD%20[ALTER]/all/numero_asc/10-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/RECORD%20%20HD%20[ALTER]/all/numero_asc/11-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/RECORD%20%20HD%20[ALTER]/all/numero_asc/12-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/RECORD%20%20HD%20[ALTER]/all/numero_asc/13-12-2018/1
+[Error   ] no shows in indexpage!
+[  Info  ] 
+[  Info  ]    Summary for update of       RECORD  HD [ALTER]
+[  Info  ]      no changes, no update necessary !
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        0
+
+[  Debug ] 
+[  Info  ] (   3/147 ) CLAROTV.COM.BR -- chan. (xmltv_id=BAND HD) -- mode Force
+[  Debug ] debugging information siteini; urlindex builder
+[  Debug ] siteini entry :
+[  Debug ] urldate format type: datestring, value: |dd-MM-yyyy
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ] url_index created:
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/BAND%20HD/all/numero_asc/07-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/BAND%20HD/all/numero_asc/08-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/BAND%20HD/all/numero_asc/09-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/BAND%20HD/all/numero_asc/10-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/BAND%20HD/all/numero_asc/11-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/BAND%20HD/all/numero_asc/12-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/BAND%20HD/all/numero_asc/13-12-2018/1
+[  Debug ]    skipped  : last show, no next startime to use as stop
+[  Info  ] 
+[  Info  ]    Summary for update of       BAND HD
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           133
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        133
+
+[  Debug ] 
+[  Info  ] (   4/147 ) CLAROTV.COM.BR -- chan. (xmltv_id=BAND HD [ALTER]) -- mode Force
+[  Debug ] debugging information siteini; urlindex builder
+[  Debug ] siteini entry :
+[  Debug ] urldate format type: datestring, value: |dd-MM-yyyy
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ] url_index created:
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/BAND%20HD%20[ALTER]/all/numero_asc/07-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/BAND%20HD%20[ALTER]/all/numero_asc/08-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/BAND%20HD%20[ALTER]/all/numero_asc/09-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/BAND%20HD%20[ALTER]/all/numero_asc/10-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/BAND%20HD%20[ALTER]/all/numero_asc/11-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/BAND%20HD%20[ALTER]/all/numero_asc/12-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/BAND%20HD%20[ALTER]/all/numero_asc/13-12-2018/1
+[Error   ] no shows in indexpage!
+[  Info  ] 
+[  Info  ]    Summary for update of       BAND HD [ALTER]
+[  Info  ]      no changes, no update necessary !
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        0
+
+[  Debug ] 
+[  Info  ] (   5/147 ) CLAROTV.COM.BR -- chan. (xmltv_id=SBT HD) -- mode Force
+[  Debug ] debugging information siteini; urlindex builder
+[  Debug ] siteini entry :
+[  Debug ] urldate format type: datestring, value: |dd-MM-yyyy
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ] url_index created:
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/SBT%20HD/all/numero_asc/07-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/SBT%20HD/all/numero_asc/08-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/SBT%20HD/all/numero_asc/09-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/SBT%20HD/all/numero_asc/10-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/SBT%20HD/all/numero_asc/11-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/SBT%20HD/all/numero_asc/12-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/SBT%20HD/all/numero_asc/13-12-2018/1
+[Error   ] no shows in indexpage!
+[  Info  ] 
+[  Info  ]    Summary for update of       SBT HD
+[  Info  ]      no changes, no update necessary !
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        0
+
+[  Debug ] 
+[  Info  ] (   6/147 ) CLAROTV.COM.BR -- chan. (xmltv_id=SBT HD [ALTER]) -- mode Force
+[  Debug ] debugging information siteini; urlindex builder
+[  Debug ] siteini entry :
+[  Debug ] urldate format type: datestring, value: |dd-MM-yyyy
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ] url_index created:
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/SBT%20HD%20[ALTER]/all/numero_asc/07-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/SBT%20HD%20[ALTER]/all/numero_asc/08-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/SBT%20HD%20[ALTER]/all/numero_asc/09-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/SBT%20HD%20[ALTER]/all/numero_asc/10-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/SBT%20HD%20[ALTER]/all/numero_asc/11-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/SBT%20HD%20[ALTER]/all/numero_asc/12-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/SBT%20HD%20[ALTER]/all/numero_asc/13-12-2018/1
+[Error   ] no shows in indexpage!
+[  Info  ] 
+[  Info  ]    Summary for update of       SBT HD [ALTER]
+[  Info  ]      no changes, no update necessary !
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        0
+
+[  Debug ] 
+[  Info  ] (   7/147 ) CLAROTV.COM.BR -- chan. (xmltv_id=SBT Nordeste HD [ALTER]) -- mode Force
+[  Debug ] debugging information siteini; urlindex builder
+[  Debug ] siteini entry :
+[  Debug ] urldate format type: datestring, value: |dd-MM-yyyy
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ] url_index created:
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/SBT%20Nordeste%20HD%20[ALTER]/all/numero_asc/07-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/SBT%20Nordeste%20HD%20[ALTER]/all/numero_asc/08-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/SBT%20Nordeste%20HD%20[ALTER]/all/numero_asc/09-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/SBT%20Nordeste%20HD%20[ALTER]/all/numero_asc/10-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/SBT%20Nordeste%20HD%20[ALTER]/all/numero_asc/11-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/SBT%20Nordeste%20HD%20[ALTER]/all/numero_asc/12-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/SBT%20Nordeste%20HD%20[ALTER]/all/numero_asc/13-12-2018/1
+[Error   ] no shows in indexpage!
+[  Info  ] 
+[  Info  ]    Summary for update of       SBT Nordeste HD [ALTER]
+[  Info  ]      no changes, no update necessary !
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        0
+
+[  Debug ] 
+[  Info  ] (   8/147 ) CLAROTV.COM.BR -- chan. (xmltv_id=SBT  SD [ALTER]) -- mode Force
+[  Debug ] debugging information siteini; urlindex builder
+[  Debug ] siteini entry :
+[  Debug ] urldate format type: datestring, value: |dd-MM-yyyy
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ] url_index created:
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/SBT%20%20SD%20[ALTER]/all/numero_asc/07-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/SBT%20%20SD%20[ALTER]/all/numero_asc/08-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/SBT%20%20SD%20[ALTER]/all/numero_asc/09-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/SBT%20%20SD%20[ALTER]/all/numero_asc/10-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/SBT%20%20SD%20[ALTER]/all/numero_asc/11-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/SBT%20%20SD%20[ALTER]/all/numero_asc/12-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/SBT%20%20SD%20[ALTER]/all/numero_asc/13-12-2018/1
+[Error   ] no shows in indexpage!
+[  Info  ] 
+[  Info  ]    Summary for update of       SBT  SD [ALTER]
+[  Info  ]      no changes, no update necessary !
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        0
+
+[  Debug ] 
+[  Info  ] (   9/147 ) CLAROTV.COM.BR -- chan. (xmltv_id=SBT  SD) -- mode Force
+[  Debug ] debugging information siteini; urlindex builder
+[  Debug ] siteini entry :
+[  Debug ] urldate format type: datestring, value: |dd-MM-yyyy
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ] url_index created:
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/SBT%20%20SD/all/numero_asc/07-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/SBT%20%20SD/all/numero_asc/08-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/SBT%20%20SD/all/numero_asc/09-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/SBT%20%20SD/all/numero_asc/10-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/SBT%20%20SD/all/numero_asc/11-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/SBT%20%20SD/all/numero_asc/12-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/SBT%20%20SD/all/numero_asc/13-12-2018/1
+[Error   ] no shows in indexpage!
+[  Info  ] 
+[  Info  ]    Summary for update of       SBT  SD
+[  Info  ]      no changes, no update necessary !
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        0
+
+[  Debug ] 
+[  Info  ] (  10/147 ) CLAROTV.COM.BR -- chan. (xmltv_id=GLOBO RN HD) -- mode Force
+[  Debug ] debugging information siteini; urlindex builder
+[  Debug ] siteini entry :
+[  Debug ] urldate format type: datestring, value: |dd-MM-yyyy
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ] url_index created:
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/GLOBO%20RN%20HD/all/numero_asc/07-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/GLOBO%20RN%20HD/all/numero_asc/08-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/GLOBO%20RN%20HD/all/numero_asc/09-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/GLOBO%20RN%20HD/all/numero_asc/10-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/GLOBO%20RN%20HD/all/numero_asc/11-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/GLOBO%20RN%20HD/all/numero_asc/12-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/GLOBO%20RN%20HD/all/numero_asc/13-12-2018/1
+[Error   ] no shows in indexpage!
+[  Info  ] 
+[  Info  ]    Summary for update of       GLOBO RN HD
+[  Info  ]      no changes, no update necessary !
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        0
+
+[  Debug ] 
+[  Info  ] (  11/147 ) CLAROTV.COM.BR -- chan. (xmltv_id=Sportv 3) -- mode Force
+[  Debug ] debugging information siteini; urlindex builder
+[  Debug ] siteini entry :
+[  Debug ] urldate format type: datestring, value: |dd-MM-yyyy
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ] url_index created:
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/Sportv%203/all/numero_asc/07-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/Sportv%203/all/numero_asc/08-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/Sportv%203/all/numero_asc/09-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/Sportv%203/all/numero_asc/10-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/Sportv%203/all/numero_asc/11-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/Sportv%203/all/numero_asc/12-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/Sportv%203/all/numero_asc/13-12-2018/1
+[  Debug ]    skipped  : last show, no next startime to use as stop
+[  Info  ] 
+[  Info  ]    Summary for update of       Sportv 3
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           26
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        26
+
+[  Debug ] 
+[  Info  ] (  12/147 ) CLAROTV.COM.BR -- chan. (xmltv_id=Sportv 2) -- mode Force
+[  Debug ] debugging information siteini; urlindex builder
+[  Debug ] siteini entry :
+[  Debug ] urldate format type: datestring, value: |dd-MM-yyyy
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ] url_index created:
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/Sportv%202/all/numero_asc/07-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/Sportv%202/all/numero_asc/08-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/Sportv%202/all/numero_asc/09-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/Sportv%202/all/numero_asc/10-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/Sportv%202/all/numero_asc/11-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/Sportv%202/all/numero_asc/12-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/Sportv%202/all/numero_asc/13-12-2018/1
+[  Info  ] 
+[  Info  ]    Summary for update of       Sportv 2
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           70
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        70
+
+[  Debug ] 
+[  Info  ] (  13/147 ) CLAROTV.COM.BR -- chan. (xmltv_id=SporTV) -- mode Force
+[  Debug ] debugging information siteini; urlindex builder
+[  Debug ] siteini entry :
+[  Debug ] urldate format type: datestring, value: |dd-MM-yyyy
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ] url_index created:
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/SporTV/all/numero_asc/07-12-2018/1
+[Warning ] error downloading page: O tempo limite da operação foi atingido (5sec)
+[Warning ] Retry 1 of 4 times
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/SporTV/all/numero_asc/08-12-2018/1
+[Warning ] error downloading page: O tempo limite da operação foi atingido (5sec)
+[Warning ] Retry 1 of 4 times
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/SporTV/all/numero_asc/09-12-2018/1
+[Warning ] error downloading page: O tempo limite da operação foi atingido (5sec)
+[Warning ] Retry 1 of 4 times
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/SporTV/all/numero_asc/10-12-2018/1
+[Warning ] error downloading page: O tempo limite da operação foi atingido (5sec)
+[Warning ] Retry 1 of 4 times
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/SporTV/all/numero_asc/11-12-2018/1
+[Warning ] error downloading page: O tempo limite da operação foi atingido (5sec)
+[Warning ] Retry 1 of 4 times
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/SporTV/all/numero_asc/12-12-2018/1
+[Warning ] error downloading page: O tempo limite da operação foi atingido (5sec)
+[Warning ] Retry 1 of 4 times
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/SporTV/all/numero_asc/13-12-2018/1
+[Warning ] error downloading page: O tempo limite da operação foi atingido (5sec)
+[Warning ] Retry 1 of 4 times
+[  Info  ] 
+[  Info  ]    Summary for update of       SporTV
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           87
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        87
+
+[  Debug ] 
+[  Info  ] (  14/147 ) CLAROTV.COM.BR -- chan. (xmltv_id=GloboNews) -- mode Force
+[  Debug ] debugging information siteini; urlindex builder
+[  Debug ] siteini entry :
+[  Debug ] urldate format type: datestring, value: |dd-MM-yyyy
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ] url_index created:
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/GloboNews/all/numero_asc/07-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/GloboNews/all/numero_asc/08-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/GloboNews/all/numero_asc/09-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/GloboNews/all/numero_asc/10-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/GloboNews/all/numero_asc/11-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/GloboNews/all/numero_asc/12-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/GloboNews/all/numero_asc/13-12-2018/1
+[  Info  ] 
+[  Info  ]    Summary for update of       GloboNews
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           256
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        256
+
+[  Debug ] 
+[  Info  ] (  15/147 ) CLAROTV.COM.BR -- chan. (xmltv_id=GNT) -- mode Force
+[  Debug ] debugging information siteini; urlindex builder
+[  Debug ] siteini entry :
+[  Debug ] urldate format type: datestring, value: |dd-MM-yyyy
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ] url_index created:
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/GNT/all/numero_asc/07-12-2018/1
+[Warning ] error downloading page: A solicitação foi anulada: O tempo limite da operação foi atingido. (5sec)
+[Warning ] Retry 1 of 4 times
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/GNT/all/numero_asc/08-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/GNT/all/numero_asc/09-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/GNT/all/numero_asc/10-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/GNT/all/numero_asc/11-12-2018/1
+[Warning ] error downloading page: A solicitação foi anulada: O tempo limite da operação foi atingido. (5sec)
+[Warning ] Retry 1 of 4 times
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/GNT/all/numero_asc/12-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/GNT/all/numero_asc/13-12-2018/1
+[  Info  ] 
+[  Info  ]    Summary for update of       GNT
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           184
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        184
+
+[  Debug ] 
+[  Info  ] (  16/147 ) CLAROTV.COM.BR -- chan. (xmltv_id=Multishow) -- mode Force
+[  Debug ] debugging information siteini; urlindex builder
+[  Debug ] siteini entry :
+[  Debug ] urldate format type: datestring, value: |dd-MM-yyyy
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ] url_index created:
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/Multishow/all/numero_asc/07-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/Multishow/all/numero_asc/08-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/Multishow/all/numero_asc/09-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/Multishow/all/numero_asc/10-12-2018/1
+[Warning ] error downloading page: A solicitação foi anulada: O tempo limite da operação foi atingido. (5sec)
+[Warning ] Retry 1 of 4 times
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/Multishow/all/numero_asc/11-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/Multishow/all/numero_asc/12-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/Multishow/all/numero_asc/13-12-2018/1
+[  Info  ] 
+[  Info  ]    Summary for update of       Multishow
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           212
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        212
+
+[  Debug ] 
+[  Info  ] (  17/147 ) CLAROTV.COM.BR -- chan. (xmltv_id=Canal Viva) -- mode Force
+[  Debug ] debugging information siteini; urlindex builder
+[  Debug ] siteini entry :
+[  Debug ] urldate format type: datestring, value: |dd-MM-yyyy
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ] url_index created:
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/Canal%20Viva/all/numero_asc/07-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/Canal%20Viva/all/numero_asc/08-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/Canal%20Viva/all/numero_asc/09-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/Canal%20Viva/all/numero_asc/10-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/Canal%20Viva/all/numero_asc/11-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/Canal%20Viva/all/numero_asc/12-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/Canal%20Viva/all/numero_asc/13-12-2018/1
+[Error   ] no shows in indexpage!
+[  Info  ] 
+[  Info  ]    Summary for update of       Canal Viva
+[  Info  ]      no changes, no update necessary !
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        0
+
+[  Debug ] 
+[  Info  ] (  18/147 ) CLAROTV.COM.BR -- chan. (xmltv_id=+ GLOBOSAT) -- mode Force
+[  Debug ] debugging information siteini; urlindex builder
+[  Debug ] siteini entry :
+[  Debug ] urldate format type: datestring, value: |dd-MM-yyyy
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ] url_index created:
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/GLOBOSAT/all/numero_asc/07-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/GLOBOSAT/all/numero_asc/08-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/GLOBOSAT/all/numero_asc/09-12-2018/1
+[Warning ] error downloading page: A solicitação foi anulada: O tempo limite da operação foi atingido. (5sec)
+[Warning ] Retry 1 of 4 times
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/GLOBOSAT/all/numero_asc/10-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/GLOBOSAT/all/numero_asc/11-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/GLOBOSAT/all/numero_asc/12-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/GLOBOSAT/all/numero_asc/13-12-2018/1
+[  Info  ] 
+[  Info  ]    Summary for update of       + GLOBOSAT
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           253
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        253
+
+[  Debug ] 
+[  Info  ] (  19/147 ) CLAROTV.COM.BR -- chan. (xmltv_id=TLC) -- mode Force
+[  Debug ] debugging information siteini; urlindex builder
+[  Debug ] siteini entry :
+[  Debug ] urldate format type: datestring, value: |dd-MM-yyyy
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ] url_index created:
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/TLC/all/numero_asc/07-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/TLC/all/numero_asc/08-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/TLC/all/numero_asc/09-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/TLC/all/numero_asc/10-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/TLC/all/numero_asc/11-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/TLC/all/numero_asc/12-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/TLC/all/numero_asc/13-12-2018/1
+[Error   ] no shows in indexpage!
+[  Info  ] 
+[  Info  ]    Summary for update of       TLC
+[  Info  ]      no changes, no update necessary !
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        0
+
+[  Debug ] 
+[  Info  ] (  20/147 ) CLAROTV.COM.BR -- chan. (xmltv_id=Arte 1) -- mode Force
+[  Debug ] debugging information siteini; urlindex builder
+[  Debug ] siteini entry :
+[  Debug ] urldate format type: datestring, value: |dd-MM-yyyy
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ] url_index created:
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/Arte%201/all/numero_asc/07-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/Arte%201/all/numero_asc/08-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/Arte%201/all/numero_asc/09-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/Arte%201/all/numero_asc/10-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/Arte%201/all/numero_asc/11-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/Arte%201/all/numero_asc/12-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/Arte%201/all/numero_asc/13-12-2018/1
+[  Debug ]    skipped  : last show, no next startime to use as stop
+[  Info  ] 
+[  Info  ]    Summary for update of       Arte 1
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           151
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        151
+
+[  Debug ] 
+[  Info  ] (  21/147 ) CLAROTV.COM.BR -- chan. (xmltv_id=Discovery Home & Health) -- mode Force
+[  Debug ] debugging information siteini; urlindex builder
+[  Debug ] siteini entry :
+[  Debug ] urldate format type: datestring, value: |dd-MM-yyyy
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ] url_index created:
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/Discovery%20Home/all/numero_asc/07-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/Discovery%20Home/all/numero_asc/08-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/Discovery%20Home/all/numero_asc/09-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/Discovery%20Home/all/numero_asc/10-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/Discovery%20Home/all/numero_asc/11-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/Discovery%20Home/all/numero_asc/12-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/Discovery%20Home/all/numero_asc/13-12-2018/1
+[  Info  ] 
+[  Info  ]    Summary for update of       Discovery Home & Health
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           215
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        215
+
+[  Debug ] 
+[  Info  ] (  22/147 ) CLAROTV.COM.BR -- chan. (xmltv_id=Curta!) -- mode Force
+[  Debug ] debugging information siteini; urlindex builder
+[  Debug ] siteini entry :
+[  Debug ] urldate format type: datestring, value: |dd-MM-yyyy
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ] url_index created:
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/Curta!/all/numero_asc/07-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/Curta!/all/numero_asc/08-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/Curta!/all/numero_asc/09-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/Curta!/all/numero_asc/10-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/Curta!/all/numero_asc/11-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/Curta!/all/numero_asc/12-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/Curta!/all/numero_asc/13-12-2018/1
+[  Debug ]    skipped  : last show, no next startime to use as stop
+[  Info  ] 
+[  Info  ]    Summary for update of       Curta!
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           138
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        138
+
+[  Debug ] 
+[  Info  ] (  23/147 ) CLAROTV.COM.BR -- chan. (xmltv_id=TruTV) -- mode Force
+[  Debug ] debugging information siteini; urlindex builder
+[  Debug ] siteini entry :
+[  Debug ] urldate format type: datestring, value: |dd-MM-yyyy
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ] url_index created:
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/TruTV/all/numero_asc/07-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/TruTV/all/numero_asc/08-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/TruTV/all/numero_asc/09-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/TruTV/all/numero_asc/10-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/TruTV/all/numero_asc/11-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/TruTV/all/numero_asc/12-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/TruTV/all/numero_asc/13-12-2018/1
+[Error   ] no shows in indexpage!
+[  Info  ] 
+[  Info  ]    Summary for update of       TruTV
+[  Info  ]      no changes, no update necessary !
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        0
+
+[  Debug ] 
+[  Info  ] (  24/147 ) CLAROTV.COM.BR -- chan. (xmltv_id=WooHoo) -- mode Force
+[  Debug ] debugging information siteini; urlindex builder
+[  Debug ] siteini entry :
+[  Debug ] urldate format type: datestring, value: |dd-MM-yyyy
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ] url_index created:
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/WooHoo/all/numero_asc/07-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/WooHoo/all/numero_asc/08-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/WooHoo/all/numero_asc/09-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/WooHoo/all/numero_asc/10-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/WooHoo/all/numero_asc/11-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/WooHoo/all/numero_asc/12-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/WooHoo/all/numero_asc/13-12-2018/1
+[Error   ] no shows in indexpage!
+[  Info  ] 
+[  Info  ]    Summary for update of       WooHoo
+[  Info  ]      no changes, no update necessary !
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        0
+
+[  Debug ] 
+[  Info  ] (  25/147 ) CLAROTV.COM.BR -- chan. (xmltv_id=ESPN Brasil) -- mode Force
+[  Debug ] debugging information siteini; urlindex builder
+[  Debug ] siteini entry :
+[  Debug ] urldate format type: datestring, value: |dd-MM-yyyy
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ] url_index created:
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/ESPN%20Brasil/all/numero_asc/07-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/ESPN%20Brasil/all/numero_asc/08-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/ESPN%20Brasil/all/numero_asc/09-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/ESPN%20Brasil/all/numero_asc/10-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/ESPN%20Brasil/all/numero_asc/11-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/ESPN%20Brasil/all/numero_asc/12-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/ESPN%20Brasil/all/numero_asc/13-12-2018/1
+[  Info  ] 
+[  Info  ]    Summary for update of       ESPN Brasil
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           116
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        116
+
+[  Debug ] 
+[  Info  ] (  26/147 ) CLAROTV.COM.BR -- chan. (xmltv_id=ESPN) -- mode Force
+[  Debug ] debugging information siteini; urlindex builder
+[  Debug ] siteini entry :
+[  Debug ] urldate format type: datestring, value: |dd-MM-yyyy
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ] url_index created:
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/ESPN/all/numero_asc/07-12-2018/1
+[Warning ] error downloading page: A solicitação foi anulada: O tempo limite da operação foi atingido. (5sec)
+[Warning ] Retry 1 of 4 times
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/ESPN/all/numero_asc/08-12-2018/1
+[Warning ] error downloading page: O tempo limite da operação foi atingido (5sec)
+[Warning ] Retry 1 of 4 times
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/ESPN/all/numero_asc/09-12-2018/1
+[Warning ] error downloading page: O tempo limite da operação foi atingido (5sec)
+[Warning ] Retry 1 of 4 times
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/ESPN/all/numero_asc/10-12-2018/1
+[Warning ] error downloading page: O tempo limite da operação foi atingido (5sec)
+[Warning ] Retry 1 of 4 times
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/ESPN/all/numero_asc/11-12-2018/1
+[Warning ] error downloading page: O tempo limite da operação foi atingido (5sec)
+[Warning ] Retry 1 of 4 times
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/ESPN/all/numero_asc/12-12-2018/1
+[Warning ] error downloading page: O tempo limite da operação foi atingido (5sec)
+[Warning ] Retry 1 of 4 times
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/ESPN/all/numero_asc/13-12-2018/1
+[Warning ] error downloading page: O tempo limite da operação foi atingido (5sec)
+[Warning ] Retry 1 of 4 times
+[  Info  ] 
+[  Info  ]    Summary for update of       ESPN
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           116
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        116
+
+[  Debug ] 
+[  Info  ] (  27/147 ) CLAROTV.COM.BR -- chan. (xmltv_id=ESPN +) -- mode Force
+[  Debug ] debugging information siteini; urlindex builder
+[  Debug ] siteini entry :
+[  Debug ] urldate format type: datestring, value: |dd-MM-yyyy
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ] url_index created:
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/ESPN/all/numero_asc/07-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/ESPN/all/numero_asc/08-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/ESPN/all/numero_asc/09-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/ESPN/all/numero_asc/10-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/ESPN/all/numero_asc/11-12-2018/1
+[Warning ] error downloading page: A solicitação foi anulada: O tempo limite da operação foi atingido. (5sec)
+[Warning ] Retry 1 of 4 times
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/ESPN/all/numero_asc/12-12-2018/1
+[Warning ] error downloading page: O tempo limite da operação foi atingido (5sec)
+[Warning ] Retry 1 of 4 times
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/ESPN/all/numero_asc/13-12-2018/1
+[Warning ] error downloading page: O tempo limite da operação foi atingido (5sec)
+[Warning ] Retry 1 of 4 times
+[  Info  ] 
+[  Info  ]    Summary for update of       ESPN +
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           116
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        116
+
+[  Debug ] 
+[  Info  ] (  28/147 ) CLAROTV.COM.BR -- chan. (xmltv_id=Fox Sports) -- mode Force
+[  Debug ] debugging information siteini; urlindex builder
+[  Debug ] siteini entry :
+[  Debug ] urldate format type: datestring, value: |dd-MM-yyyy
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ] url_index created:
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/Fox%20Sports/all/numero_asc/07-12-2018/1
+[Warning ] error downloading page: O tempo limite da operação foi atingido (5sec)
+[Warning ] Retry 1 of 4 times
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/Fox%20Sports/all/numero_asc/08-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/Fox%20Sports/all/numero_asc/09-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/Fox%20Sports/all/numero_asc/10-12-2018/1
+[Warning ] error downloading page: A solicitação foi anulada: O tempo limite da operação foi atingido. (5sec)
+[Warning ] Retry 1 of 4 times
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/Fox%20Sports/all/numero_asc/11-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/Fox%20Sports/all/numero_asc/12-12-2018/1
+[Warning ] error downloading page: A solicitação foi anulada: O tempo limite da operação foi atingido. (5sec)
+[Warning ] Retry 1 of 4 times
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/Fox%20Sports/all/numero_asc/13-12-2018/1
+[Warning ] error downloading page: O tempo limite da operação foi atingido (5sec)
+[Warning ] Retry 1 of 4 times
+[  Info  ] 
+[  Info  ]    Summary for update of       Fox Sports
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           125
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        125
+
+[  Debug ] 
+[  Info  ] (  29/147 ) CLAROTV.COM.BR -- chan. (xmltv_id=Fox Sports 2) -- mode Force
+[  Debug ] debugging information siteini; urlindex builder
+[  Debug ] siteini entry :
+[  Debug ] urldate format type: datestring, value: |dd-MM-yyyy
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ] url_index created:
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/Fox%20Sports%202/all/numero_asc/07-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/Fox%20Sports%202/all/numero_asc/08-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/Fox%20Sports%202/all/numero_asc/09-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/Fox%20Sports%202/all/numero_asc/10-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/Fox%20Sports%202/all/numero_asc/11-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/Fox%20Sports%202/all/numero_asc/12-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/Fox%20Sports%202/all/numero_asc/13-12-2018/1
+[  Info  ] 
+[  Info  ]    Summary for update of       Fox Sports 2
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           137
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        137
+
+[  Debug ] 
+[  Info  ] (  30/147 ) CLAROTV.COM.BR -- chan. (xmltv_id=Band Sports) -- mode Force
+[  Debug ] debugging information siteini; urlindex builder
+[  Debug ] siteini entry :
+[  Debug ] urldate format type: datestring, value: |dd-MM-yyyy
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ] url_index created:
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/Band%20Sports/all/numero_asc/07-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/Band%20Sports/all/numero_asc/08-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/Band%20Sports/all/numero_asc/09-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/Band%20Sports/all/numero_asc/10-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/Band%20Sports/all/numero_asc/11-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/Band%20Sports/all/numero_asc/12-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/Band%20Sports/all/numero_asc/13-12-2018/1
+[  Debug ]    skipped  : last show, no next startime to use as stop
+[  Info  ] 
+[  Info  ]    Summary for update of       Band Sports
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           92
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        92
+
+[  Debug ] 
+[  Info  ] (  31/147 ) CLAROTV.COM.BR -- chan. (xmltv_id=Band News) -- mode Force
+[  Debug ] debugging information siteini; urlindex builder
+[  Debug ] siteini entry :
+[  Debug ] urldate format type: datestring, value: |dd-MM-yyyy
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ] url_index created:
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/Band%20News/all/numero_asc/07-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/Band%20News/all/numero_asc/08-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/Band%20News/all/numero_asc/09-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/Band%20News/all/numero_asc/10-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/Band%20News/all/numero_asc/11-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/Band%20News/all/numero_asc/12-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/Band%20News/all/numero_asc/13-12-2018/1
+[  Info  ] 
+[  Info  ]    Summary for update of       Band News
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           135
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        135
+
+[  Debug ] 
+[  Info  ] (  32/147 ) CLAROTV.COM.BR -- chan. (xmltv_id=National Geographic) -- mode Force
+[  Debug ] debugging information siteini; urlindex builder
+[  Debug ] siteini entry :
+[  Debug ] urldate format type: datestring, value: |dd-MM-yyyy
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ] url_index created:
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/National%20Geographic/all/numero_asc/07-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/National%20Geographic/all/numero_asc/08-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/National%20Geographic/all/numero_asc/09-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/National%20Geographic/all/numero_asc/10-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/National%20Geographic/all/numero_asc/11-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/National%20Geographic/all/numero_asc/12-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/National%20Geographic/all/numero_asc/13-12-2018/1
+[  Debug ]    skipped  : last show, no next startime to use as stop
+[  Info  ] 
+[  Info  ]    Summary for update of       National Geographic
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           144
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        144
+
+[  Debug ] 
+[  Info  ] (  33/147 ) CLAROTV.COM.BR -- chan. (xmltv_id=Discovery Channel) -- mode Force
+[  Debug ] debugging information siteini; urlindex builder
+[  Debug ] siteini entry :
+[  Debug ] urldate format type: datestring, value: |dd-MM-yyyy
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ] url_index created:
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/Discovery%20Channel/all/numero_asc/07-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/Discovery%20Channel/all/numero_asc/08-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/Discovery%20Channel/all/numero_asc/09-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/Discovery%20Channel/all/numero_asc/10-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/Discovery%20Channel/all/numero_asc/11-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/Discovery%20Channel/all/numero_asc/12-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/Discovery%20Channel/all/numero_asc/13-12-2018/1
+[  Info  ] 
+[  Info  ]    Summary for update of       Discovery Channel
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           197
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        197
+
+[  Debug ] 
+[  Info  ] (  34/147 ) CLAROTV.COM.BR -- chan. (xmltv_id=Animal Planet) -- mode Force
+[  Debug ] debugging information siteini; urlindex builder
+[  Debug ] siteini entry :
+[  Debug ] urldate format type: datestring, value: |dd-MM-yyyy
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ] url_index created:
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/Animal%20Planet/all/numero_asc/07-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/Animal%20Planet/all/numero_asc/08-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/Animal%20Planet/all/numero_asc/09-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/Animal%20Planet/all/numero_asc/10-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/Animal%20Planet/all/numero_asc/11-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/Animal%20Planet/all/numero_asc/12-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/Animal%20Planet/all/numero_asc/13-12-2018/1
+[  Info  ] 
+[  Info  ]    Summary for update of       Animal Planet
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           202
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        202
+
+[  Debug ] 
+[  Info  ] (  35/147 ) CLAROTV.COM.BR -- chan. (xmltv_id=The History Channel) -- mode Force
+[  Debug ] debugging information siteini; urlindex builder
+[  Debug ] siteini entry :
+[  Debug ] urldate format type: datestring, value: |dd-MM-yyyy
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ] url_index created:
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/The%20History%20Channel/all/numero_asc/07-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/The%20History%20Channel/all/numero_asc/08-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/The%20History%20Channel/all/numero_asc/09-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/The%20History%20Channel/all/numero_asc/10-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/The%20History%20Channel/all/numero_asc/11-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/The%20History%20Channel/all/numero_asc/12-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/The%20History%20Channel/all/numero_asc/13-12-2018/1
+[Error   ] no shows in indexpage!
+[  Info  ] 
+[  Info  ]    Summary for update of       The History Channel
+[  Info  ]      no changes, no update necessary !
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        0
+
+[  Debug ] 
+[  Info  ] (  36/147 ) CLAROTV.COM.BR -- chan. (xmltv_id=Discovery Turbo) -- mode Force
+[  Debug ] debugging information siteini; urlindex builder
+[  Debug ] siteini entry :
+[  Debug ] urldate format type: datestring, value: |dd-MM-yyyy
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ] url_index created:
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/Discovery%20Turbo/all/numero_asc/07-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/Discovery%20Turbo/all/numero_asc/08-12-2018/1
+[Warning ] error downloading page: A solicitação foi anulada: O tempo limite da operação foi atingido. (5sec)
+[Warning ] Retry 1 of 4 times
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/Discovery%20Turbo/all/numero_asc/09-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/Discovery%20Turbo/all/numero_asc/10-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/Discovery%20Turbo/all/numero_asc/11-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/Discovery%20Turbo/all/numero_asc/12-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/Discovery%20Turbo/all/numero_asc/13-12-2018/1
+[  Debug ]    skipped  : last show, no next startime to use as stop
+[  Info  ] 
+[  Info  ]    Summary for update of       Discovery Turbo
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           160
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        160
+
+[  Debug ] 
+[  Info  ] (  37/147 ) CLAROTV.COM.BR -- chan. (xmltv_id=Futura) -- mode Force
+[  Debug ] debugging information siteini; urlindex builder
+[  Debug ] siteini entry :
+[  Debug ] urldate format type: datestring, value: |dd-MM-yyyy
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ] url_index created:
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/Futura/all/numero_asc/07-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/Futura/all/numero_asc/08-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/Futura/all/numero_asc/09-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/Futura/all/numero_asc/10-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/Futura/all/numero_asc/11-12-2018/1
+[Warning ] error downloading page: A solicitação foi anulada: O tempo limite da operação foi atingido. (5sec)
+[Warning ] Retry 1 of 4 times
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/Futura/all/numero_asc/12-12-2018/1
+[Warning ] error downloading page: O tempo limite da operação foi atingido (5sec)
+[Warning ] Retry 1 of 4 times
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/Futura/all/numero_asc/13-12-2018/1
+[  Debug ]    skipped  : last show, no next startime to use as stop
+[  Info  ] 
+[  Info  ]    Summary for update of       Futura
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           274
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        274
+
+[  Debug ] 
+[  Info  ] (  38/147 ) CLAROTV.COM.BR -- chan. (xmltv_id=H2) -- mode Force
+[  Debug ] debugging information siteini; urlindex builder
+[  Debug ] siteini entry :
+[  Debug ] urldate format type: datestring, value: |dd-MM-yyyy
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ] url_index created:
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/H2/all/numero_asc/07-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/H2/all/numero_asc/08-12-2018/1
+[Warning ] error downloading page: A solicitação foi anulada: O tempo limite da operação foi atingido. (5sec)
+[Warning ] Retry 1 of 4 times
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/H2/all/numero_asc/09-12-2018/1
+[Warning ] error downloading page: O tempo limite da operação foi atingido (5sec)
+[Warning ] Retry 1 of 4 times
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/H2/all/numero_asc/10-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/H2/all/numero_asc/11-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/H2/all/numero_asc/12-12-2018/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/H2/all/numero_asc/13-12-2018/1
+[Warning ] error downloading page: A solicitação foi anulada: O tempo limite da operação foi atingido. (5sec)
+[Warning ] Retry 1 of 4 times
+[  Debug ]    skipped negative show time! at 09/12/2018 03:30:00
+[  Debug ]    skipped negative show time! at 09/12/2018 03:30:00
+[  Info  ] 
+[  Info  ]    Summary for update of       H2
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           201
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        201
+
+[  Debug ] 
+[  Info  ] (  39/147 ) CLAROTV.COM.BR -- chan. (xmltv_id=Discovery Kids) -- mode Force
+[  Debug ] debugging information siteini; urlindex builder
+[  Debug ] siteini entry :
+[  Debug ] urldate format type: datestring, value: |dd-MM-yyyy
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ] url_index created:
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/Discovery%20Kids/all/numero_asc/07-12-2018/1
+[Warning ] error downloading page: O tempo limite da operação foi atingido (5sec)
+[Warning ] Retry 1 of 4 times
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/Discovery%20Kids/all/numero_asc/08-12-2018/1
+[Warning ] error downloading page: O tempo limite da operação foi atingido (5sec)
+[Warning ] Retry 1 of 4 times
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/Discovery%20Kids/all/numero_asc/09-12-2018/1
+[Warning ] error downloading page: O tempo limite da operação foi atingido (5sec)
+[Warning ] Retry 1 of 4 times
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/Discovery%20Kids/all/numero_asc/10-12-2018/1
+[Warning ] error downloading page: O tempo limite da operação foi atingido (5sec)
+[Warning ] Retry 1 of 4 times
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/Discovery%20Kids/all/numero_asc/11-12-2018/1
+[Warning ] error downloading page: O tempo limite da operação foi atingido (5sec)
+[Warning ] Retry 1 of 4 times
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/Discovery%20Kids/all/numero_asc/12-12-2018/1
+[Warning ] error downloading page: O tempo limite da operação foi atingido (5sec)
+[Warning ] Retry 1 of 4 times
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/Discovery%20Kids/all/numero_asc/13-12-2018/1
+[Warning ] error downloading page: O tempo limite da operação foi atingido (5sec)
+[Warning ] Retry 1 of 4 times
+[  Info  ] 
+[  Info  ]    Summary for update of       Discovery Kids
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           548
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        548
+
+[  Debug ] 
+[  Info  ] (  40/147 ) CLAROTV.COM.BR -- chan. (xmltv_id=Gloob) -- mode Force
+[  Debug ] debugging information siteini; urlindex builder
+[  Debug ] siteini entry :
+[  Debug ] urldate format type: datestring, value: |dd-MM-yyyy
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/##channel##/all/numero_asc/|urldate|/1
+[  Debug ] url_index created:
+[  Debug ]    http://clarotv.claro.com.br/GuiaProgramacao/getProgramacoesCanais/Gloob/all/numero_asc/07-12-2018/1
